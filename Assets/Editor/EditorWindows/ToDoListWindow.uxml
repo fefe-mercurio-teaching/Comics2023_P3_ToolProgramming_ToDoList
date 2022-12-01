@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/EditorWindows/ToDoListStyle.uss?fileID=7433441132597879392&amp;guid=c8f0e8fc25b7e4813b57d0928be2cc6b&amp;type=3#ToDoListStyle" />
+    <ui:VisualElement>
+        <ui:Label text="ToDo List" display-tooltip-when-elided="true" class="intestazione" />
+        <ui:TextField picking-mode="Ignore" label="Nuova ToDo" name="toDoTextField" />
+        <ui:Button text="Aggiungi" display-tooltip-when-elided="true" name="addToDoButton" />
+        <ui:ScrollView name="toDoList" class="scrollView" />
+        <ui:ProgressBar name="progressBar" />
+    </ui:VisualElement>
+</ui:UXML>
